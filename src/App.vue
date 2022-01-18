@@ -30,6 +30,7 @@ body,
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to top right, #005aa7, #fffde4);
+  background-repeat: no-repeat;
 }
 .box {
   justify-content: center;

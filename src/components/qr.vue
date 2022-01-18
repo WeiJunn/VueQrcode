@@ -2,7 +2,7 @@
   <div class="box">
     <vue-qr
       :logoSrc="logoSrc"
-      :size="300"
+      :size="200"
       :margin="0"
       :auto-color="true"
       :dot-scale="1"
@@ -48,13 +48,14 @@ export default {
 <style scoped>
 .box {
   flex-direction: column;
-  width: 500px;
-  height: 500px;
+  width: 20rem;
+  height: 20rem;
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  padding: 20px;
 }
 .input {
   margin: 15px 15px 0 15px;
